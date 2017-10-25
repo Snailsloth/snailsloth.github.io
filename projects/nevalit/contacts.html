@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>Контакты</title>
+    <meta name="description" content="Длинное описание">
+    <meta name="subject" content="Коротко">
+    <meta name="keywords" content="Ключевые слова">
+    <meta name="author" content="Global Web Group">
+    <meta name="copyright" content="Global Web Group">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-96x96.png">
+    <link rel="stylesheet" href="styles/uikit.css">
+    <script src="scripts/jquery-3.2.1.min.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/uikit.min.js"></script>
+    <script src="scripts/uikit-icons.min.js"></script>
+    <link rel="stylesheet" href="styles/jquery.mCustomScrollbar.css">
+    <script src="scripts/jquery.mousewheel.js"></script>
+    <script src="scripts/jquery.mCustomScrollbar.js"></script>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/lightgallery.css">
+    <link rel="stylesheet" href="styles/lightslider.css">
+    <script src="scripts/google_map.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUb1SEY4ozGj-wGn1Y_93nXJv0GHaBKJQ&amp;callback=initMap" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="uk-width-1-1 mainheader">
+      <div class="uk-navbar-container uk-navbar-transparent uk-padding-small uk-container width-cut-960" uk-navbar>
+        <div class="uk-navbar-left"><a class="uk-navbar-logo-link uk-flex-middle uk-navbar-brand" href="index.html" alt="GlobalWebGroup"><img class="uk-navbar-logo-image" src="img/logo.png"><span class="uk-text-middle uk-margin-small-left uk-padding-small ">
+               Изделия из искусственного камня<br>Корпусная мебель на заказ</span></a></div>
+        <div class="uk-navbar-right nav-overlay">
+          <div class="uk-flex uk-flex-right uk-flex-middle"><a class="header-phone uk-text-right uk-margin-medium-left">+7(812) 309 39 13<br><span>г.Санкт-Петербург</span></a><a class="header-phone uk-text-right uk-margin-medium-left">+7(8142) 59 92 59<br><span>г.Петрозаводск</span></a><a class="header-search uk-margin-medium-left uk-navbar-toggle" uk-toggle="target: .nav-overlay; animation: uk-animation-fade" href="#"></a></div>
+        </div>
+        <div class="nav-overlay uk-navbar-right uk-flex-1" hidden style="height: 72px;">
+          <div class="uk-navbar-item uk-width-expand">
+            <form class="uk-search uk-search-navbar uk-width-1-2">
+              <input class="uk-search-input" type="search" placeholder="Поиск по сайту" autofocus>
+            </form>
+          </div><a class="uk-navbar-toggle" uk-close uk-toggle="target: .nav-overlay; animation: uk-animation-fade" href="#"></a>
+        </div>
+      </div>
+    </div>
+    <div class="uk-width-1-1 mainnav uk-background-default site-shadow mainheader">
+      <nav class="uk-container uk-background-default width-cut-960" uk-navbar>
+        <div class="uk-navbar-left">
+          <ul class="uk-navbar-nav topmenu">
+            <li><a href="prices.html">Цены</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+            <li><a href="feedbacks.html">Отзывы</a></li>
+            <li><a href="aboutus.html">О компании</a></li>
+            <li><a href="portfolio.html">Портфолио</a></li>
+            <li><a href="vacancies.html">Вакансии</a></li>
+          </ul>
+        </div>
+        <div class="uk-navbar-right nav-buttons-nest">
+          <button class="button button-hollow" uk-toggle="target: #costCalcForm">Рассчитать стоимость</button>
+          <button class="button button-filled" uk-toggle="target: #callBackForm">Заказать звонок</button>
+        </div>
+      </nav>
+    </div>
+    <main class="main-content">
+      <div class="uk-container uk-margin-small-bottom uk-margin-small-top">
+        <ul class="breadlinks">
+          <li><a href="index.html">Главная</a></li>
+          <li><a class="active" href="prices.html" onclick="return false">Контакты</a></li>
+        </ul>
+      </div>
+      <div class="uk-container uk-margin-small-bottom">
+        <div class="uk-background-default uk-padding-small">
+          <h1 class="uk-text-left">Координаты для связи</h1>
+          <p class="gray-text uk-margin-small">Тел.: <b class="grayer"> +7(812) 309-39-13</b></p>
+          <p class="gray-text uk-margin-small">E-mail: <b class="grayer"> info©nevalit.ru*</b></p>
+          <p class="gray-text uk-margin-small">* Внимание! - для отправки письма необходимо заменить знак "©" на "@" это сделано для защиты почты от спама. Оставить жалобу или положительный отзыв можно здесь ...</p>
+        </div>
+      </div>
+      <div class="uk-container uk-margin-small-bottom">
+        <div class="uk-grid-match uk-child-width-expand@m uk-text-left uk-grid-small" uk-grid>
+          <div>
+            <div class="uk-background-default uk-padding-small contacts-address-card">
+              <p class="contacts-card-header">Адрес производства:</p>
+              <p class="contacts-card-text">Россия, 197374, Санкт-Петербург, ул. Савушкина, д.85</p>
+              <p class="contacts-card-black-text">Часы работы</p>
+              <p class="contacts-card-text">Пн-Пт: с 9-00 до 18-00<br>Сб-Вс: выходной</p>
+            </div>
+          </div>
+          <div>
+            <div class="uk-background-default uk-padding-small contacts-address-card">
+              <p class="contacts-card-header">Адрес выставки (центральный офис)</p>
+              <p class="contacts-card-text">Россия, 194358, Санкт-Петербург, Ул. Полевая Сабировская, д. 54, (Торговый центр "Интерио", выставочный модуль № 315)</p>
+              <p class="contacts-card-text">Тел.: +7(812) 309-39-13<br>Менеджер, дизайнеры</p>
+              <p class="contacts-card-black-text">Часы работы:</p>
+              <p class="contacts-card-text">Пн-Пт: с 11-00 до 21-00<br>(ежедневно)*</p>
+            </div>
+          </div>
+          <div>
+            <div class="uk-background-default uk-padding-small contacts-address-card">
+              <p class="contacts-card-header">Адрес выставки:</p>
+              <p class="contacts-card-text">Россия, 194358, Санкт-Петербург, Королева пр., д.61 (Торговый центр "ЛенСпецСМУ")</p>
+              <p class="contacts-card-text">Тел.: +7(812) 309-39-13</p>
+              <p class="contacts-card-black-text">Часы работы:</p>
+              <p class="contacts-card-text">Пн-Пт: с 10-00 до 20-00<br>(ежедневно)</p>
+            </div>
+          </div>
+          <div>
+            <div class="uk-background-default uk-padding-small contacts-address-card">
+              <p class="contacts-card-header">Адрес региональной выставки:</p>
+              <p class="contacts-card-text">Республика Карелия, 185005, г. Петрозаводск , ул. Варламова 21</p>
+              <p class="contacts-card-text">Тел./факс: +7(8142) 59-92-59</p>
+              <p class="contacts-card-black-text">Часы работы:</p>
+              <p class="contacts-card-text">Пн-Пт: с 10-00 до 18-00<br>(ежедневно)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="uk-container uk-margin-small-bottom map-block">
+        <div id="map"></div>
+      </div>
+      <div class="uk-container uk-margin-small-bottom">
+        <div class="uk-background-default uk-padding-small contacts-phonesblock">
+          <h1 class="uk-text-left">Наши телефоны</h1>
+          <p class="gray-text uk-margin-small"><b class="grayer">+7(812) 309-39-13</b> (Секретарь)</p>
+          <p class="gray-text uk-margin-small"><b class="grayer">+7(812) 309-39-13; доб. 109 </b> (Производство)</p>
+          <p class="gray-text uk-margin-small"><b class="grayer">+7(812) 309-39-13; доб. 112</b> (Бухгалтерия)</p>
+          <p class="gray-text uk-margin-small"><b class="grayer">+7(812) 309-39-13; доб. 777</b> (Для Сотрудничества)</p>
+          <p class="gray-text uk-margin-small">Факс <b class="grayer">+7(812) 309-39-13; доб. 0 или 199</b></p>
+          <p class="uk-margin-small-top"><b class="contacts-card-black-text">*В выходные дни для быстрого и качественного обслуживания, просьба заранее оговаривать время визита. Не менее чем за 30 минут до приезда в офис компании.</b></p>
+        </div>
+      </div>
+    </main>
+    <div class="mainfooter">
+      <div class="uk-width-1-1 uk-background-default site-shadow">
+        <footer class="uk-container uk-padding uk-background-default width-cut-960">
+          <div class="uk-grid-match uk-grid-small uk-child-width-expand@s footer-contacts-cubes" uk-grid>
+            <div class="uk-width-1-2">
+              <div style="display:flex;flex-flow:column nowrap;">
+                <p class="heading">Наше производство:</p>
+                <p>г. Санкт-Петербург, ул. Савушкина, д.85</p>
+                <p class="heading">Часы работы:</p>
+                <p>Пн-Пт: с 9-00 до 18-00<br>Сб-Вс: выходной</p>
+                <div class="pushChild-toBottom" style="min-height:100px;">
+                  <div>
+                    <p class="heading">Подпишитесь на рассылку новостей</p>
+                    <form class="uk-flex">
+                      <input class="input-hollow" type="text" placeholder="Ваш email" required>
+                      <button class="button button-filled uk-margin-left">Подписаться</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="uk-width-1-2">
+              <div style="display:flex;flex-flow:column nowrap;">
+                <p class="heading">Наши адреса:</p>
+                <p>
+                   г. Санкт-Петербург, ул. Полевая Сабировская,<br>д. 54, литера А (ТЦ "Интерио")</p>
+                <p class="heading">Часы работы:</p>
+                <p>Пн-Вс: c 11-00 до 21-00 (ежедневно)</p>
+                <div class="pushChild-toBottom" style="min-height:100px;">
+                  <button class="button button-hollow" uk-toggle="target: #disributersLogin">Вход для дистрибьюторов</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <div class="uk-width-1-1">
+        <div class="uk-navbar-container uk-navbar-transparent uk-padding-small uk-container footer-copyright-row" uk-navbar>
+          <p class="uk-text-center uk-margin-remove-bottom"> © 2017, «Нева ЛИТ». Изделия из искусственного камня. Мебель. Все права защищены.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

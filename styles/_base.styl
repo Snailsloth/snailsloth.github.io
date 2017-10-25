@@ -1,0 +1,135 @@
+day-background-color = #fff
+day-content-color = #666666
+
+night-background-color = #000
+night-content-color = #fff
+
+body
+	position: relative
+	display: flex
+	flex-flow: column nowrap
+	min-height: 99vh
+	color: day-content-color
+	background-color: day-background-color
+	font-family: 'Comfortaa', cursive
+	box-sizing: border-box
+	font-size: 14px
+
+body.mode--dark{
+	background-color: night-background-color
+	color: night-content-color
+}
+
+@media (min-width: 640px)
+	body
+		font-size: 16px
+
+::selection
+	background: rgba(255,255,255, 0)
+
+.main
+	-webkit-box-flex: 1
+	flex: 1
+
+.container
+	width: 100%
+	max-width: 1440px
+	margin: 0 auto
+	padding-left 15px
+	padding-right 15px
+	box-sizing: border-box
+	overflow: hidden
+	&:before
+		content ""
+		display table
+	&:after
+		clear both
+	&--wide
+		max-width: 100%
+
+
+@media (min-width: 640px)
+	.container
+		padding-left 20px
+		padding-right 20px
+@media (min-width: 960px)
+	.container
+		padding-left 30px
+		padding-right 30px
+@media (min-width: 1440px)
+	.container
+		padding-left 40px
+		padding-right 40px
+
+
+.margin
+	&_bottom
+		margin-bottom: 3em
+		&--small
+			margin-bottom: 1em
+	&_top
+		margin-top: 3em
+		&--small
+			margin-top: 1em
+	&_left
+		margin-left: 3em
+		&--small
+			margin-left: 1em
+	&_right
+		margin-right: 3em
+		&--small
+			margin-right: 1em
+	&_auto
+		margin: 0 auto
+
+
+.padding-remove--horizontal
+	padding-left 0
+	padding-right 0
+.padding-remove--vertical
+	padding-top 0
+	padding-bottom 0
+
+.text-center
+	text-align center
+
+.pos-relative
+	position: relative
+.pos-absolute
+	position: absolute;
+	&--center
+		left: 50%
+		-webkit-transform: translateX(-50%);
+		transform: translateX(-50%);
+		&--top
+			@extend .pos-absolute--center
+			top: 0
+		&--middle
+			@extend .pos-absolute--center
+			top 50%
+	&--left
+		left: 0
+		&--top
+			@extend .pos-absolute--left
+			top: 0
+		&--middle
+			@extend .pos-absolute--left
+			top 50%
+
+
+
+.icon-link{
+	display: block
+    float: left
+    width: 50px
+    height: 50px
+    padding: 5px
+    box-sizing: border-box
+    border: 1px solid #000
+    border-radius: 50%
+	background-color: #fff;
+	img{
+		width: 100%
+		height: auto
+	}
+}

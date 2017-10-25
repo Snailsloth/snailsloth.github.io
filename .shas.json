@@ -1,0 +1,132 @@
+[
+  {
+    "type": "pug@2.0.0-rc.4::minify",
+    "inputSha": [
+      {
+        "file": "index.pug",
+        "sha": "06f5573536c8da47d76943dc88d06812d4be23d0"
+      },
+      {
+        "file": "modules/blocks/_head.pug",
+        "sha": "9e30c0f251686a4ddbc1057c15d42daa53d14b43"
+      },
+      {
+        "file": "modules/blocks/header/_header.pug",
+        "sha": "91c33916efdb1bae5d525bf1c8d7ab1cd27f41d2"
+      },
+      {
+        "file": "modules/blocks/particles-block/_particles-block.pug",
+        "sha": "be789b152c3078d80d027efc7c9e6006bab881d5"
+      },
+      {
+        "file": "modules/blocks/about/_about.pug",
+        "sha": "5b0ab8ec47b7f2457da338710f13e1dffca59fad"
+      },
+      {
+        "file": "modules/blocks/works/_works.pug",
+        "sha": "861dc153834961b538f7b252450b6e2d5e0ad791"
+      },
+      {
+        "file": "modules/elements/project-card/_project-card.pug",
+        "sha": "02fab85c22548190cc7699fc143afdeb66d2f568"
+      },
+      {
+        "file": "modules/blocks/contacts/_contacts.pug",
+        "sha": "b95dfaecd33cab6a17a90fd8bb32d38813bf6e70"
+      },
+      {
+        "file": "modules/blocks/footer/_footer.pug",
+        "sha": "690b0d291e21074b385ffed7fa8bd2cbd438acc6"
+      }
+    ],
+    "outputSha": "798df6e220304f78f9b4f22fd3bbcac85fa39d0c",
+    "input": "index.pug",
+    "output": [
+      "index.html"
+    ]
+  },
+  {
+    "type": "::minify",
+    "inputSha": [
+      {
+        "file": "styles/_base.styl",
+        "sha": "6dddb4879eadd63ea99c5a6a56d55e6c1e8ec7d8"
+      }
+    ],
+    "outputSha": "6dddb4879eadd63ea99c5a6a56d55e6c1e8ec7d8",
+    "input": "styles/_base.styl",
+    "output": [
+      "styles/_base.styl"
+    ]
+  },
+  {
+    "type": "stylus@0.54.5::minify",
+    "inputSha": [
+      {
+        "file": "styles/main.styl",
+        "sha": "45feb126bfaa13e0fbe9bb99e0947ef28aade9bf"
+      }
+    ],
+    "outputSha": "080a37a8cfbb32f833c4c2a4b0857bb644ad89be",
+    "input": "styles/main.styl",
+    "output": [
+      "styles/main.css"
+    ]
+  },
+  {
+    "type": "::minify",
+    "inputSha": [
+      {
+        "file": "styles/normalize.css",
+        "sha": "ebe0759bf259b6caeadee6137973481046ac5636"
+      }
+    ],
+    "outputSha": "8c25947fc5b70774365dadb8c2dffbba5a7ecdb4",
+    "input": "styles/normalize.css",
+    "output": [
+      "styles/normalize.css"
+    ]
+  },
+  {
+    "type": "::minify",
+    "inputSha": [
+      {
+        "file": "scripts/particle-app.js",
+        "sha": "a5be90b0b2c2d9eae42a029a0ed89f103f83d5b4"
+      }
+    ],
+    "outputSha": "acea594a18f0cfd4b481823e030a5b7cd9e9f0ff",
+    "input": "scripts/particle-app.js",
+    "output": [
+      "scripts/particle-app.js"
+    ]
+  },
+  {
+    "type": "::minify",
+    "inputSha": [
+      {
+        "file": "scripts/main.js",
+        "sha": "7ad85ba3066bafeefb1cba3ecaac15da1d459456"
+      }
+    ],
+    "outputSha": "8c4ea80c157208f96936a4e247317c294d2fdd03",
+    "input": "scripts/main.js",
+    "output": [
+      "scripts/main.js"
+    ]
+  },
+  {
+    "type": "::minify",
+    "inputSha": [
+      {
+        "file": "scripts/particles.js",
+        "sha": "6d41b2dfd94b9b8e8b96b95d1258f57efb11aada"
+      }
+    ],
+    "outputSha": "8bd2a8821e03c8ef72ba9d337c3ff04c169979af",
+    "input": "scripts/particles.js",
+    "output": [
+      "scripts/particles.js"
+    ]
+  }
+]

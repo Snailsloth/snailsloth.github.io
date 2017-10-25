@@ -1,0 +1,28 @@
+/* TEAM */
+	Frontend, ideas:Oleg Dunaev
+	Contact: o.dunaev@gw.spb.ru
+	Twitter: @SnailslothPug
+	From:Saint-petersburg, Russian-federation
+	
+	Photoshop-master: Ekaterina Kurilova 
+	From:Saint-petersburg, Russian-federation
+
+	Backend: Pavel
+	From:Saint-petersburg, Russian-federation
+
+	Good vibes, stupid jokes: Svyatoslav Salamatin
+	From:Saint-petersburg, Russian-federation
+	
+	
+/* THANKS */
+
+	Texts : Evgeniya
+		
+
+/* SITE */
+	Last update:2017/07/07
+	Language: Russian
+	Doctype:HTML5
+	Components: JQuery, UIkit
+	IDE: Sublime Text, Notepad++
+	Software: Photoshop, GitKraken, node_pug,sass
